@@ -1,5 +1,5 @@
 import fastify from 'fastify'
-import { cors } from '@fastify/cors'
+import cors from '@fastify/cors'
 import { memoriesRoutes } from './routes/memories'
 
 const app = fastify()
@@ -15,5 +15,5 @@ app
     port: 3333,
   })
   .then(() => {
-    console.log('Rodando em localhost:3333')
+    console.log('🚀 Rodando em http://localhost:3333')
   })
